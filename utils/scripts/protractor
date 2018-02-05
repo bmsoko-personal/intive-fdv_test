@@ -1,0 +1,1 @@
+protractor ./protractor.config.js --cucumberOpts.tags "$1" --baseUrl "$2"

@@ -1,0 +1,34 @@
+{
+  "name": "intive-fdv",
+  "version": "0.0.1",
+  "repository": "bmsoko-personal/intive-fdv",
+  "author": "Bruno M. Soko",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "latest",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "1.3.3",
+    "fs-extra": "^0.30.0",
+    "protractor": "^5.2.2",
+    "protractor-cucumber-framework": "4.1.1",
+    "selenium-standalone": "^6.12.0",
+    "webdriver-manager": "12.0.6",
+    "extend": "3.0.0"
+  },
+  "scripts": {
+    "install-hooks": "./utils/hooks/install",
+    "selenium": "./utils/scripts/selenium",
+    "e2e": "./utils/scripts/protractor",
+    "e2e:local": "NODE_ENV=local npm run e2e",
+    "e2e:remote": "NODE_ENV=remote npm run e2e",
+    "lint": "./utils/scripts/lint",
+    "lint:full": "./utils/scripts/lint-full"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "10.0.1",
+    "eslint-plugin-jsx-a11y": "2.2.2",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-react": "6.3.0"
+  }
+}

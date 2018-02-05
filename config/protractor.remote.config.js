@@ -1,0 +1,51 @@
+
+module.exports = {
+
+    seleniumAddress: 'http://hub.crossbrowsertesting.com:80/wd/hub',
+    multiCapabilities: [
+        {
+            name: 'SOW-TEST-CH',
+            browserName: 'Chrome',
+            version: '62x64',
+            platform: 'Mac OSX 10.12',
+            screenResolution: '1366x768',
+            record_video: 'true',
+            record_network: 'false',
+            username: 'marcelo@olapic.com',
+            password: 'u754bb97600eda6e',
+        },
+        {
+            name: 'SOW-TEST-FF',
+            browserName: 'Firefox',
+            version: '55',
+            platform: 'Mac OSX 10.12',
+            screenResolution: '1366x768',
+            record_video: 'true',
+            record_network: 'false',
+            username: 'marcelo@olapic.com',
+            password: 'u754bb97600eda6e',
+        },
+        {
+            name: 'SOW-TEST-SA',
+            browserName: 'Safari',
+            version: '10',
+            platform: 'Mac OSX 10.12',
+            screenResolution: '1366x768',
+            record_video: 'true',
+            record_network: 'false',
+            username: 'marcelo@olapic.com',
+            password: 'u754bb97600eda6e',
+        },
+        {
+            name: 'SOW-TEST-IE11',
+            browserName: 'Internet Explorer',
+            version: '11',
+            platform: 'Windows 8.1',
+            screenResolution: '1366x768',
+            record_video: 'true',
+            record_network: 'false',
+            username: 'marcelo@olapic.com',
+            password: 'u754bb97600eda6e',
+        },
+    ],
+};
